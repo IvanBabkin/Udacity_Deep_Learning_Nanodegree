@@ -8,5 +8,15 @@ The purpose of this project is to build CNNs models to automatically predict the
 
 * Key techniques used:
   * Creating and training CNN models with PyTorch
-  * Improving CNN performance through optimizer and model hyperparameter tuning
+  * Improving CNN performance through optimizer and model hyperparameters tuning
   * Transfer Learning
+
+## [Project 3 - Generate TV Scripts](https://github.com/IvanBabkin/Udacity_Deep_Learning_Nanodegree/tree/main/Project%203%20-%20Generate%20TV%20Scripts)
+The objective of this project is to create an RNN that can generate new, "fake" TV scripts based on patterns it recognizes in the training data, which consists of Seinfeld scripts from 9 seasons. More specifically, the goal is to build a suitable neural network architecture, taking into how text data should be processed and prepared for input into the RNN as well as word embedding.  Ultimately, this project is in the field of Natural Language Processing. 
+
+* Key techniques used:
+  * Batching data (considering the batch size and word sequence length)
+  * Creating and training RNN models with PyTorch
+  * Improving RNN performance through data, model and training parameters tuning
+  * Word embedding
+  * LSTM/GRU layers
